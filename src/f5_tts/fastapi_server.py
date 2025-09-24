@@ -240,7 +240,7 @@ if __name__ == "__main__":
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8000,
+        port=8041,
         reload=False,  # 禁用reload以避免导入问题
         log_level="info"
     )
